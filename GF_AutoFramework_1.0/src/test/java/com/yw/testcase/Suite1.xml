@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+	<parameter name="username" value="bzceshi"/>
+	<parameter name="pwd" value="123456"/>
+	<!-- <parameter name="browserDriverUrl" value="C:\Users\zhangj\AppData\Local\Google\Chrome\Application\chromedriver.exe"/> -->
+	<parameter name="url" value="https://gcfw.dongjiang.com.cn/wf/"/>
+	<test name="test">
+		<classes>
+			<class name="com.yw.testcase.LoginTest"/>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13262" started-at="2019-02-02T08:07:21Z" finished-at="2019-02-02T08:07:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13262" started-at="2019-02-02T08:07:21Z" finished-at="2019-02-02T08:07:35Z">
+      <class name="com.yw.testcase.DetectBasicDataSetTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.yw.testcase.DetectBasicDataSetTest@c46bcd4]" name="beforeClass" is-config="true" duration-ms="5737" started-at="2019-02-02T08:07:21Z" finished-at="2019-02-02T08:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.yw.testcase.DetectBasicDataSetTest@c46bcd4]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-02-02T08:07:28Z" finished-at="2019-02-02T08:07:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="detectBasicDataSetIndex(java.lang.String, java.lang.String)[pri:1, instance:com.yw.testcase.DetectBasicDataSetTest@c46bcd4]" name="detectBasicDataSetIndex" duration-ms="239" started-at="2019-02-02T08:07:28Z" data-provider="loginZG" finished-at="2019-02-02T08:07:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zgceshi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectBasicDataSetIndex -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.yw.testcase.DetectBasicDataSetTest@c46bcd4]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-02-02T08:07:28Z" finished-at="2019-02-02T08:07:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="detectItemIndex()[pri:5, instance:com.yw.testcase.DetectBasicDataSetTest@c46bcd4]" name="detectItemIndex" duration-ms="2263" started-at="2019-02-02T08:07:28Z" finished-at="2019-02-02T08:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectItemIndex -->
+        <test-method status="PASS" signature="detectItemCreate(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.yw.testcase.DetectBasicDataSetTest@c46bcd4]" name="detectItemCreate" duration-ms="1487" started-at="2019-02-02T08:07:30Z" data-provider="createData2" finished-at="2019-02-02T08:07:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[COD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mg/L]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[260]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[260]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectItemCreate -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.yw.testcase.DetectBasicDataSetTest@c46bcd4]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-02-02T08:07:30Z" finished-at="2019-02-02T08:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.yw.testcase.DetectBasicDataSetTest@c46bcd4]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-02-02T08:07:32Z" finished-at="2019-02-02T08:07:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="detectItemModify(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:com.yw.testcase.DetectBasicDataSetTest@c46bcd4]" name="detectItemModify" duration-ms="1491" started-at="2019-02-02T08:07:32Z" data-provider="modifyData2" finished-at="2019-02-02T08:07:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[铜]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mg/L]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectItemModify -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.yw.testcase.DetectBasicDataSetTest@c46bcd4]" name="afterClass" is-config="true" duration-ms="1339" started-at="2019-02-02T08:07:33Z" finished-at="2019-02-02T08:07:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.yw.testcase.DetectBasicDataSetTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
